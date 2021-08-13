@@ -1,0 +1,140 @@
+body {
+    background-color: #E1E5F2;
+}
+.customNav {
+    background-color: #1F7A8C !important;
+}
+/*Jumbotron*/
+.phoneBackground {
+    background-image: url(../images/HeroImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    height: calc(115vh - 5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jumboCopy {
+   /*width: 70%;
+   min-width: 500px;
+   max-width: 700px;
+   text-align: left;*/
+   text-align: left;
+   margin: 75px;
+}
+/*Research*/
+.researchText {
+    height: 600px;
+    padding-top: 25px;
+    text-align: left;
+    margin: 75px;
+}
+.researchTitle {
+    padding-bottom: 50px;
+}
+.interviewTitle {
+    padding-bottom: 5px;
+}
+.interviewText {
+    padding-bottom: 25px;
+}
+.questionsTitle {
+    padding-bottom: 5px;
+}
+/*Cards*/
+.cardContainer {
+    padding-bottom: 100px;
+}
+
+/*User Persona*/
+.personaPic {
+    display: block;
+    margin-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.personaGrid {
+    display: grid;
+    grid-template-rows: 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "personaPic"
+        "userPersonaText"
+        ;
+}
+.personaTitle {
+    padding-bottom: 50px;
+}
+.userPersonaText {
+    padding-top: 50px;
+}
+/*Insight/Prob Statemtn*/
+.defineTitle {
+    padding-top: 25px;
+    text-align: left;
+    margin: 75px;
+}
+.insightPic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 75px;
+}
+/*Journey Map*/
+.journeyTitle {
+    padding-top: 25px;
+    text-align: left;
+    margin: 75px;
+}
+.journeyPic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.journeyText {
+    padding-bottom: 25px;
+    text-align: left;
+    margin: 75px;
+}
+.journey1 {
+    padding-bottom: 15px;
+}
+/*Prototype*/
+.prototypeTitle {
+    padding-top: 25px;
+    text-align: left;
+    margin: 75px;
+}
+.sketchesTitle {
+    text-align: left;
+    margin: 75px;
+}
+.prototypeGrid {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+        "sketches1Text" "sketches1Pic"
+        "sketches2Text" "sketches2Pic"
+        ;
+}
+/*Final Wireframes*/
+.wireframesTitle {
+    padding-top: 25px;
+    text-align: left;
+    margin: 75px;
+}
+.wireframesPic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.wireframesText {
+    padding-bottom: 25px;
+    text-align: left;
+    margin: 75px;
+}
+
