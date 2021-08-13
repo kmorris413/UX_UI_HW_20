@@ -4,9 +4,10 @@ body {
 .customNav {
     background-color: #1F7A8C !important;
 }
+
 /*Jumbotron*/
 .phoneBackground {
-    background-image: url(../images/HeroImage.png);
+    background-image: url(../images/HeroImage3.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
@@ -21,7 +22,9 @@ body {
    max-width: 700px;
    text-align: left;*/
    text-align: left;
-   margin: 75px;
+   margin-left: 75px;
+   margin-right: 300px;
+   color: #022B3A;
 }
 /*Research*/
 .researchText {
@@ -52,7 +55,7 @@ body {
     display: block;
     margin-left: 25px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 100px;
 }
 .personaGrid {
     display: grid;
@@ -68,19 +71,23 @@ body {
 }
 .userPersonaText {
     padding-top: 50px;
+    padding-bottom: 100px;
 }
 /*Insight/Prob Statemtn*/
 .defineTitle {
-    padding-top: 25px;
-    text-align: left;
-    margin: 75px;
+    padding-bottom: 50px;
+    margin-left: 75px;
 }
-.insightPic {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 75px;
+.insightButton {
+    background-color: #1F7A8C;
+    color: #022B3A;
 }
+.problemButton {
+    background-color: #1F7A8C;
+    color: #022B3A;
+}
+
+
 /*Journey Map*/
 .journeyTitle {
     padding-top: 25px;
@@ -104,37 +111,54 @@ body {
 /*Prototype*/
 .prototypeTitle {
     padding-top: 25px;
+    padding-bottom: 50px;
     text-align: left;
-    margin: 75px;
+    margin-left: 75px;
 }
 .sketchesTitle {
     text-align: left;
-    margin: 75px;
+    margin-left: 75px;
 }
-.prototypeGrid {
-    display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: 
-        "sketches1Text" "sketches1Pic"
-        "sketches2Text" "sketches2Pic"
-        ;
+.sketches1Pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.sketches1Text {
+    padding-top: 5px;
+    padding-bottom: 25px;
+    text-align: left;
+    margin-left: 75px;
+}
+.sketches2Pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.sketches2Text {
+    padding-top: 5px;
+    text-align: left;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 /*Final Wireframes*/
 .wireframesTitle {
-    padding-top: 25px;
+    padding-top: 75px;
     text-align: left;
-    margin: 75px;
+    margin-left: 75px;
 }
 .wireframesPic {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 .wireframesText {
     padding-bottom: 25px;
     text-align: left;
-    margin: 75px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 

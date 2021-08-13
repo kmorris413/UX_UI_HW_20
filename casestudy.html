@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="CSS/style.css" type="text/css">
 </head>
 <body>
+
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
         <a class="navbar-logo" href="#">
@@ -119,15 +120,42 @@
         </div>  
       </section>
 
-      <!--Define & Ideate (Insight/Prob Statement)-->
-      <section class="userInsight">
-        <div class="defineTitle">
-         <h1 style="text-align: left">Define & Ideate</h1>
+      <!--Define & Ideate Accordian (Insight/Prob Statement)-->
+      <div class="defineTitle">
+          <h1 style="text-align: left">Define & Ideate</h1>
+
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-center collapsed insightButton" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                User Insight
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Liz Palmer, an avid traveler with little free time needs to easily plan/organize many different activities for her group to do whie on vacation, because everyone has different interests/hobbies. <code></code>
+            </div>
+          </div>
         </div>
-        <div class="insightPic">
-         <img src="images/User Insight.png" style="width: 600px; height: 300px;">
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-center collapsed problemButton" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Problem Statement
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              It is time consuming and overwhelming for travelers to sort through and plan activities for trips/vacations that are aligned with their individual interests. 
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
 
       <!--Journey Map-->
       <section class="journeyMap">
@@ -146,35 +174,31 @@
           </div>
       </section>
 
-      <!--Prototype Section Constructed Using CSS Grid-->
+      <!--Prototype Section-->
       <section class="prototype">
-          <h1 class="prototypeTitle" style="text-align: left">Prototype</h1>
-          <h2 class="sketchesTitle" style="text-align: left">Sketches & Iterations</h2>
-          <div class="prototypeGrid">
-
-              <div class="sketches1Text">
-                  <p class="sketches1IntroText" style="text-align: left">I started sketching out some of my ideas in order to get feedback from testing.</p>
-                  <p class="notesText" style="text-align: left">Notes/Feedback:</p>
-                  <p class="sketches1Text1" style="text-align: left">-Clear layout, easy to grasp functions, positive and linear process.</p>
-                  <p class="sketches1Text2" style="text-align: left">-Onboarding is too simple, need more details throughout.</p>
-                  <p class="sketches1Text3" style="text-align: left">-Layout of home page is awkward, need to clarify and add more details for activity sections.</p>
-                  <p class="sketches1Text4" style="text-align: left">-Add more personal touches for users.</p>
-              </div>
-
-              <div class="sketches1Pic">
-                  <img src="images/Sketches1Pic.png" style="width: 575px; height: 375px;">
-              </div>
-
-              <div class="sketches2Text">
-                  <p class="sketches2Text1" style="text-align: left">After gathering notes and feedback from usability testing I began iterating my sketches to change some of the layouts, add more details and update the overall flow of the app.</p>
-                  <p class="sketches2Text2" style="text-align: left">I focused more on the onboarding process because I recieved the most feedback for that portion of the app. I also included ideas for a profile section that had more personal aspects to it.</p>
-              </div>
-
-              <div class="sketches2Pic">
-                  <img src="images/Sketches2Pic.png" style="width: 575px; height: 375px;">
-              </div>
+          <div class="prototypeTitles">
+              <h1 class="prototypeTitle" style="text-align: left">Prototype</h1>
+              <h2 class="sketchesTitle" style="text-align: left">Sketches & Iterations</h2>
           </div>
-      </section>
+          <div class="sketches1Pic">
+              <img src="images/Sketches1Pic.png" style="width: 675px; height: 400px;">
+          </div>
+          <div class="sketches1Text">
+            <p class="sketches1IntroText" style="text-align: left">I started sketching out some of my ideas in order to get feedback from testing.</p>
+            <p class="notesText" style="text-align: left">Notes/Feedback:</p>
+            <p class="sketches1Text1" style="text-align: left">-Clear layout, easy to grasp functions, positive and linear process.</p>
+            <p class="sketches1Text2" style="text-align: left">-Onboarding is too simple, need more details throughout.</p>
+            <p class="sketches1Text3" style="text-align: left">-Layout of home page is awkward, need to clarify and add more details for activity sections.</p>
+            <p class="sketches1Text4" style="text-align: left">-Add more personal touches for users.</p>
+           </div>
+           <div class="sketches2Pic">
+               <img src="images/Sketches2Pic.png" style="width: 675px; height: 400px;">
+           </div>
+           <div class="sketches2Text">
+            <p class="sketches2Text1" style="text-align: left">After gathering notes and feedback from usability testing I began iterating my sketches to change some of the layouts, add more details and update the overall flow of the app.</p>
+            <p class="sketches2Text2" style="text-align: left">I focused more on the onboarding process because I recieved the most feedback for that portion of the app. I also included ideas for a profile section that had more personal aspects to it.</p>
+            </div>
+        </section>
 
       <!--Final Wireframes-->
       <section class="finalWireframes">
@@ -182,7 +206,7 @@
               <h1 style="text-align: left">Final Wireframes</h1>
           </div>
           <div class="wireframesPic">
-              <img src="images/Wireframes.png" style="width: 950px; height: 400px;">
+              <img src="images/Wireframes.png" style="width: 975px; height: 400px;">
           </div>
           <div class="wireframesText">
               <p style="text-align: left">My main problem statement focused on how time consuming and overwhelming it is for travlers to find activities to do. So as I began to turn my sketches into wireframes I focused on creating simple, consistent and effective designs. I felt that this was the strongest approach to take in order to successfully solve the original problem.</p>
